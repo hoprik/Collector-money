@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    -ms-overflow-style: none;  /* IE и Edge */
+    scrollbar-width: none;  /* Firefox */
+    background-attachment: fixed;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+.mf{
+    text-align: center;
+    color: red;
+    font-family: 'Rubik', sans-serif;
+    font-size: 58px;
+    margin-top: 150px;
+}
+
+.nf{
+    text-align: center;
+    color: red;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 50px;
+}
+
+.bar{
+    width: 75%;
+    height: 50px;
+    background-color: rgba(200, 200, 200, 0.733);
+    margin: 0 auto;
+    border-radius: 10px 10px;
+}
+
+#barcolor{
+    margin-top: -66px;
+    background-color: aquamarine;
+    width:80%;
+    height: 50px;
+    border-radius: 10px 10px;
+}
+
+p{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    line-height: 50px;
+}
+
+.buttons{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.add {
+	box-shadow: 0px 10px 14px -7px #418551;
+	background-color:#59b35f;
+	border-radius:8px;
+    border: #59b35f 1px solid;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    font-family: 'Rubik', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:16px 36px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1ecc41;
+    transition: 0.5s ease-in;
+}
+.add:hover {
+    transition: 0.5s ease-in;
+    border: #40996a 1px solid;
+	background-color:#40996a;
+}
+.add:active {
+	position:relative;
+	top:1px;
+}
+
+.decrease {
+	box-shadow: 0px 10px 14px -7px rgb(145, 0, 0);
+	background-color:rgb(203, 0, 0);
+	border-radius:8px;
+    border: rgb(203, 0, 0) 1px solid;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    font-family: 'Rubik', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:16px 36px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px rgb(203, 0, 0);
+    transition: 0.5s ease-in;
+}
+.decrease:hover {
+    transition: 0.5s ease-in;
+    border: rgb(160, 0, 0) 1px solid;
+	background-color:rgb(160, 0, 0);
+}
+.decrease:active {
+	position:relative;
+	top:1px;
+}
+
+h4{
+    text-align: center;
+    margin-top: 400px;
+    color: red;
+    font-family: 'Rubik', sans-serif;
+}
